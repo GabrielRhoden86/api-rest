@@ -41,7 +41,24 @@ Execute o script definido no `package.json` (por exemplo, o script `dev`):
 ```bash
 npm run dev
 ```
-
 ## Aula 3.
+## 8. Crie um arquivo server.js e copie as credencias para conexão ao servidor e clique nos ... da diretiva required para criar um importação:s
+```bash
+code server.js
+```
+## 9. Crie um exportação no  final do `server.js`, de forma que possamos importá-lo em outros módulos:
+```bash
+app.js: export default app     server.js: import from './src/app.js'
+```
 
+### 10. em package.json inclu o  type:module para poder trabalhar com importações:
+Instale o Nodemon usando o seguinte comando:
+```bash
+  "type":"module"
+```
 
+### 11. vamos utiliza o postman para inserir dados em nossa estrutura de dados atravéz da rota:
+Instale postman
+```bash
+  post(/selecoes)
+```
