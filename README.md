@@ -1,29 +1,47 @@
-## API-REST NODE.JS
+# API REST com Node.js
 
-[AULA-1]
-## 1 - Crie uma arquivo de configuração package.json:
+## Aula 1.
+
+### 1. Crie um arquivo de configuração `package.json`:
+```bash
 npm init -y
+```
 
-## 2 - Crie um pasta src:
+### 2. Crie uma pasta `src`:
+```bash
 mkdir src
+```
 
-## 3 - Vamos baixar o pacotes necessário para projeto para APIs, Midlewares, Routs:
-https://expressjs.com/en/starter/installing.html
+### 3. Instale os pacotes necessários para o projeto (Express):
+Execute o seguinte comando para instalar o Express:
+```bash
 npm install express
+```
 
-## 4 - Crie uma arquivo src\app.js e faça as implementações:
-mkdir src\app.js
+### 4. Crie o arquivo `src/app.js` e faça as implementações:
+```bash
+mkdir src && touch src/app.js
+```
 
-## 5 - Execute  o comando para verificar sua implementação no browser:
-http://localhost:3000
-node src\app.js 
+### 5. Execute o comando para verificar sua implementação no navegador:
+Após implementar seu servidor, execute o seguinte comando e abra o navegador em http://localhost:3000:
+```bash
+node src/app.js 
+```
 
-[AULA-2]
-## 6 - Para monitorar o status  do seu servidor e recarrregar automaticament vamos utilizar o "Nodemon":
-## Baixa o nodemon:
+## Aula 2.
+
+### 6. Utilize o Nodemon para monitorar e recarregar automaticamente o servidor:
+Instale o Nodemon usando o seguinte comando:
+```bash
 npm install nodemon -D
+```
 
-## 7 -  execute o script que você criou no package.json neste caso o script DEV:
+Execute o script definido no `package.json` (por exemplo, o script `dev`):
+```bash
 npm run dev
+```
 
-[AULA-3]
+## Aula 3.
+
+
